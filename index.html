@@ -4133,6 +4133,7 @@ window.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('
 function cleanPanel(){const b=$('dBody');if(!b)return;const kids=[...b.children];let hide=false;
  kids.forEach(k=>{if(k.classList.contains('dsec')){const t=k.textContent.trim();hide=(t==='En lecture'||t==='Bibles');}
   else if(k.classList.contains('v9-logo'))hide=true;
+  else if(k.classList.contains('v9-year'))hide=false;
   k.classList.toggle('nb-hide',hide&&!k.classList.contains('v9-year')&&!k.classList.contains('v9-grid'));});
  const dh=document.querySelector('#drawer .dh b');if(dh){const s=$('drawer').classList.contains('v9-msg')?'Brochures':'Bible';if(dh.textContent!==s)dh.textContent=s;}}
 new MutationObserver(cleanPanel).observe($('dBody'),{childList:true});
@@ -6238,4 +6239,3 @@ body.m4-gesture-active #wmbNavDash{touch-action:none!important}
   window.M4InteractionFinal={returnHome,cycleStudy,cycleSearch,screenshot};
 })();
 </script>
-

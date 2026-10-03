@@ -4,16 +4,14 @@
 
 Application Web progressive (PWA) installable, créée à partir de l’application fournie. La photo remise par l’utilisateur sert d’icône et de logo.
 
-## Ouvrir et installer
+## Utilisation hors ligne
 
-**Ouvrir l’application : [wmbbible-ecwcaaw4.manus.space](https://wmbbible-ecwcaaw4.manus.space/)**
+Après avoir ouvert l’application sur un site HTTPS, laissez le premier chargement se terminer afin que l’application, l’icône et les cinq jeux de données de brochures soient mis en cache (environ 51 Mo compressés). Installez ensuite WMB depuis le menu du navigateur : **Installer l’application** dans Chrome/Edge, ou **Partager → Sur l’écran d’accueil** dans Safari sur iPhone/iPad. Les fonctions qui ouvrent un site externe nécessitent toujours une connexion. Les notes, soulignements et préférences restent dans le stockage local de l’appareil.
 
-Pour préparer l’utilisation hors ligne, ouvrez d’abord le lien avec une connexion Internet et laissez le premier chargement se terminer. Le service worker met en cache l’application, les icônes et les cinq jeux de données de brochures (environ 51 Mo compressés). Installez ensuite WMB depuis le menu du navigateur : **Installer l’application** dans Chrome/Edge, ou **Partager → Sur l’écran d’accueil** dans Safari sur iPhone/iPad. Les fonctions qui ouvrent un site externe nécessitent toujours une connexion. Les notes, soulignements et préférences restent dans le stockage local de l’appareil.
+## Contenu
 
-## Source
-
-Ce dépôt contient les fichiers de l’application et ses ressources hors ligne. L’hébergement Pages GitHub n’a pas pu être activé avec les droits disponibles pour cette session; l’application est publiée séparément sur le lien HTTPS ci-dessus.
+Ce dépôt contient l’application et ses données de brochures hors ligne, avec le manifeste et le service worker nécessaires à son installation.
 
 ## Merci
 
-**Merci pour la photo et pour votre confiance.** Elle est utilisée comme icône et logo de l’application WMB Bible d’étude.
+**Merci pour la photo et pour la confiance accordée. — Mercy**
